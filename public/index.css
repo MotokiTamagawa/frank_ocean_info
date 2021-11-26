@@ -1,0 +1,257 @@
+/* 共通 */
+body{
+    background: white;
+    margin: 0%;
+    font-family: 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', '游明朝','Yu Mincho', '游明朝体', 'YuMincho','ＭＳ Ｐ明朝', 'MS PMincho', serif;
+
+}
+.page_title{
+    text-align: center;
+    background-color:darkgrey;
+}
+/* ヘッダー */
+.site-header{
+    background:white;
+    display: flex;
+    padding: 10px 10px;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 100;
+}
+
+.gnav__menu{
+    display: flex;
+    list-style: none;
+}
+.gnav__menu__item{
+    margin-right:10px;
+    margin-top: 12px;
+}
+.gnav__menu__item a{
+    color: #333;
+    text-decoration: none;
+}
+.content{
+    line-height: 1.6;
+    margin: 0 auto;
+    padding-top: 100px;
+    width:80%;
+    background-color:whitesmoke;
+    text-align: center;
+}
+.site-footer{
+    background: rgb(54, 89, 45);
+    padding: 80px 0;
+
+}
+.copyright{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+/* ホーム */
+.home{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.home img{
+    height: 60%;
+    width: 80%;
+}
+.home_title {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+.home_title img{
+    height: 500px;
+    width: 60%;
+
+}
+
+.home_title a:hover{
+        background:rgb(132, 213, 128);
+        border-radius:100%;
+        transform:rotate(360deg);
+}
+
+.slide {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+.homeimg{
+    width: 20%;
+    height: 20%;
+}
+/* マイページ */
+
+/* ニュースページ */
+
+
+.news1{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.news1_1{
+    width: 30%;
+    height:20% ;
+}
+.news1_2{
+    width: 40%;
+    height:30% ;
+}
+
+.news1_3{
+    width: 50%;
+    height:40% ;
+}
+
+.news1_4{
+    width: 30%;
+    height:20% ;
+}
+
+.news1_5{
+    width: 30%;
+    height:20% ;
+}
+.news1_6{
+    width: 30%;
+    height:20% ;
+}
+
+.news1_7{
+    width: 30%;
+    height:20% ;
+}
+
+.news1_8{
+    width: 30%;
+    height:20% ;
+}
+
+/* リリック/レビューページ */
+.channelorange{
+    /* background-color:cadetblue; */
+    padding-top: 60px;
+}
+
+.album_introduction{
+    text-align: center;
+}
+
+.songs{
+    text-align: center;
+}
+
+.album_introduction img{
+    width: 500px;
+    height:500px;
+}
+
+/* レビューページ */
+
+.split{
+    display: table;
+    width: 100%;    
+}
+.split-item{
+    display: table-cell;
+    padding: 80px;
+    width: 50%;
+}
+.split-left{
+    background: #000;
+    color: #fff;
+    position: relative;
+}
+.split-left__inner{
+    height: 100%;
+    position: fixed;
+    width: 50%;
+    padding-top:30px;
+}
+
+.split-left__inner p {
+    font-size: 12px;
+}
+.split-left__inner a {
+    font-size: 12px;
+}
+
+
+/* .split-right__inner{
+    height: 8000px;
+} */
+
+@media screen and (max-width:1024px) {
+    .split{
+        display: block;
+    }
+    .split-item{
+        display: block;
+        width: auto;
+    }
+    .split-left__inner{
+        position: inherit;
+        width: auto;
+    }
+}
+
+.reviews{
+    background-color: whitesmoke;
+}
+
+/* レビュ-時の次おくり */
+.nav-links{
+    padding:2em;
+    display:flex;
+    justify-content:center;
+    /* background:#f3f3f3; */
+  }
+  a,span{
+    width:50px;
+    height:50px;
+    margin:2px;
+    line-height:50px;
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:none;
+    background:#fff;
+    color:#222;
+    transition:.3s;
+  }
+  a:hover{
+    background:rgb(132, 213, 128);
+    border-radius:100%;
+    transform:rotate(360deg);
+  }
+  .current{
+    background:gold;
+    border-radius:100%;
+  }
+  .dots{
+    background:none;
+  }
+
+  .post_review{
+      text-align: center;
+  }
+  .post_review textarea{
+        height:250px;
+        width: 60%;
+  }
+
+  .reviews p{
+      font-size: 5px;
+  }
+  .reviews{
+      text-align: center;
+  }
+
+
